@@ -1,4 +1,11 @@
 import React from "react";
+
+export interface ReviewProps {
+  name: string;
+  avatar: string;
+  rating: number;
+  comment: string;
+}
 export interface PropertyProps {
   name: string;
 
@@ -20,4 +27,7 @@ export interface PropertyProps {
 
   image: string;
   discount: string;
+
+  description: string;
+  reviews: ReviewProps[];
 }

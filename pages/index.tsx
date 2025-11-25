@@ -1,7 +1,7 @@
 import Pill from "@/components/Pill";
 import { PROPERTYLISTINGSAMPLE } from "@/constants";
 import Image from "next/image";
-import bgImg from "@/public/hero-bg.jpg"; // or your hero image
+import bgImg from "@/public/assets/Home- Listing Page.png"; // or your hero image
 
 export default function Home() {
   const filters = ["Top Villa", "Self Checkin", "Pet Friendly", "Beachfront"];
